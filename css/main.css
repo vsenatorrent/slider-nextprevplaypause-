@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container ul {
+  width: 100%; }
+  .container ul li {
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: none; }
+    .container ul li.showing {
+      display: block; }
+    .container ul li:first-child {
+      background-color: indianred; }
+    .container ul li:nth-child(2) {
+      background-color: aquamarine; }
+    .container ul li:nth-child(3) {
+      background-color: darkorchid; }
+    .container ul li:nth-child(4) {
+      background-color: sandybrown; }
+    .container ul li:nth-child(5) {
+      background-color: darkkhaki; }
+
+/*# sourceMappingURL=main.css.map */
