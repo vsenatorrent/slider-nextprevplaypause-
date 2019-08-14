@@ -1,42 +1,87 @@
-* {
-  margin: 0;
-  padding: 0;
+.container {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
-.container {
-  
-  ul {
-    width: 100%;
-    li {
-      padding: 10px;
-      font-size: 25px;
-      color: #fff;
-      font-weight: bold;
-      height: 100px;
-      width: 600px;
-      position: absolute;
-      top: 5%;
-      left: 50%;
-      transform: translate(-50%, 0);
-      display: none;
-      &.showing {
-        display: block;
-      }
-      &:first-child {
-        background-color: indianred;
-      }
-      &:nth-child(2) {
-        background-color: aquamarine;
-      }
-      &:nth-child(3) {
-        background-color: darkorchid;
-      }
-      &:nth-child(4) {
-        background-color: sandybrown;
-      }
-      &:nth-child(5) {
-        background-color: darkkhaki;
-      }
-    }
+.slider {
+  position: relative;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: 1px solid #c2bebe;
+  padding: 5px;
+}
+
+.slide {
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  &:first-child {
+    background-color: indianred;
+  }
+  &:nth-child(2) {
+    background-color: aquamarine;
+  }
+  &:nth-child(3) {
+    background-color: darkorchid;
+  }
+  &:nth-child(4) {
+    background-color: sandybrown;
+  }
+  &:nth-child(5) {
+    background-color: darkkhaki;
   }
 }
+
+.showing {
+  display: block;
+}
+
+
+// .container {
+  
+//   ul {
+//     width: 100%;
+//     li {
+//       padding: 10px;
+//       font-size: 25px;
+//       color: #fff;
+//       font-weight: bold;
+//       height: 100px;
+//       width: 600px;
+//       position: absolute;
+//       top: 5%;
+//       left: 50%;
+//       transform: translate(-50%, 0);
+//       display: none;
+//       &.showing {
+//         display: block;
+//       }
+//       &:first-child {
+//         background-color: indianred;
+//       }
+//       &:nth-child(2) {
+//         background-color: aquamarine;
+//       }
+//       &:nth-child(3) {
+//         background-color: darkorchid;
+//       }
+//       &:nth-child(4) {
+//         background-color: sandybrown;
+//       }
+//       &:nth-child(5) {
+//         background-color: darkkhaki;
+//       }
+//     }
+//   }
+// }
